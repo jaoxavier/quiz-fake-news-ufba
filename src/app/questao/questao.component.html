@@ -1,0 +1,20 @@
+<div class="inicio" *ngIf="!iniciar">
+    <h1>QUIZ FAKE NEWS</h1>
+    <p>Nesse quiz vamos passar por algumas fake news mais famosas do Brasil, será que você tem conhecimento sobre a verdade ou acredita em fake news?</p>
+    <button (click)="start()">Começar</button>
+</div>
+
+<div class="questao" *ngIf="iniciar">
+    <div class="pergunta">
+        <h1>{{questao.questao}}</h1>
+        <button (click)="resposta(1)" [disabled]="respondido">{{questao.res_verdade}}</button>
+        <button (click)="resposta(2)" [disabled]="respondido">{{questao.res_meiaverdade}}</button>
+        <button (click)="resposta(3)" [disabled]="respondido">{{questao.res_mentira}}</button>
+    </div>
+
+    <div class="resposta" *ngIf="respondido">
+        <h2>{{respostaQuestao}}</h2>
+        <p>Explicação: {{questao.explicacao}}</p>
+        <button (click)="next()" >Proximo!</button>
+    </div>
+</div>

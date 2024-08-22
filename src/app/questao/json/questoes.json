@@ -1,0 +1,25 @@
+{
+    "questoes": [
+        {
+            "questao": "Mamadeira de piroca?",
+            "res_verdade": "Não exsite",
+            "res_meiaverdade": "Tá no kit gay",
+            "res_mentira": "Existe demais",
+            "explicação": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis explicabo enim ipsam nostrum! Eos eum quae eius ipsa repellat deserunt fuga a, sunt sit tempora aliquid, necessitatibus cum nesciunt explicabo."
+        },
+        {
+            "questao": "Vacina da autismo?",
+            "res_verdade": "Seguro",
+            "res_meiaverdade": "Muito raro de acontecer",
+            "res_mentira": "Dá autismo",
+            "explicação": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis explicabo enim ipsam nostrum! Eos eum quae eius ipsa repellat deserunt fuga a, sunt sit tempora aliquid, necessitatibus cum nesciunt explicabo."
+        },
+        {
+            "questao": "Urna fraude?",
+            "res_verdade": "seguro por 26 instituições",
+            "res_meiaverdade": "pode ser hackeavel",
+            "res_mentira": "globolixo manipulado",
+            "explicação": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis explicabo enim ipsam nostrum! Eos eum quae eius ipsa repellat deserunt fuga a, sunt sit tempora aliquid, necessitatibus cum nesciunt explicabo."
+        }
+    ]
+}
