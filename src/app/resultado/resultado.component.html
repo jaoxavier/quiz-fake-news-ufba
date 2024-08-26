@@ -1,5 +1,15 @@
-<div class="resultado">
-    <p class="verdade">vdd {{respostas.verdade}}</p>
-    <p class="meiaverdade">+- vdd  {{respostas.meiaverdade}}</p>
-    <p class="mentira">mentira {{respostas.mentira}}</p>
+<div class="container d-flex justify-content-center flex-column my-5 text-center">
+    <div class="resultado">
+        <h1>Você foi {{resultado.final}} nesse teste!</h1>
+    </div>
+    <div class="texto mx-5 my-5">
+        <p>
+            {{resultado.texto}}
+        </p>
+        <p class="my-5">
+            <strong>
+                {{acertos}}
+            </strong>
+        </p>
+    </div>
 </div>

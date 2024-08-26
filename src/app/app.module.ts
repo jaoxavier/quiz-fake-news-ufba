@@ -8,6 +8,7 @@ import { InformativoComponent } from './informativo/informativo.component';
 import { QuestaoComponent } from './questao/questao.component';
 import { HeaderComponent } from './header/header.component';
 import { ResultadoComponent } from './resultado/resultado.component';
+import { ReferenciasComponent } from './referencias/referencias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ResultadoComponent } from './resultado/resultado.component';
     InformativoComponent,
     QuestaoComponent,
     HeaderComponent,
-    ResultadoComponent
+    ResultadoComponent,
+    ReferenciasComponent
   ],
   imports: [
     BrowserModule,

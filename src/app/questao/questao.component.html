@@ -1,20 +1,33 @@
-<div class="inicio" *ngIf="!iniciar">
+<div class="inicio text-center my-5" *ngIf="!iniciar">
     <h1>QUIZ FAKE NEWS</h1>
-    <p>Nesse quiz vamos passar por algumas fake news mais famosas do Brasil, será que você tem conhecimento sobre a verdade ou acredita em fake news?</p>
-    <button (click)="start()">Começar</button>
+    <p class="menu-text">Nesse quiz vamos passar por algumas fake news mais famosas do Brasil, será que você tem conhecimento sobre a verdade ou acredita em fake news?</p>
+    <button class="btn btn-dark" (click)="start()">Começar</button>
 </div>
 
-<div class="questao" *ngIf="iniciar">
-    <div class="pergunta">
+<div class="questao container d-flex justify-content-center text-center my-5" *ngIf="iniciar">
+    <div class="pergunta" *ngIf="!respondido">
         <h1>{{questao.questao}}</h1>
-        <button (click)="resposta(1)" [disabled]="respondido">{{questao.res_verdade}}</button>
-        <button (click)="resposta(2)" [disabled]="respondido">{{questao.res_meiaverdade}}</button>
-        <button (click)="resposta(3)" [disabled]="respondido">{{questao.res_mentira}}</button>
+        <button class="btn btn-dark my-2" [ngStyle]="{'background-color': respondido ? 'green' : '#212529'}" (click)="resposta(1)" [disabled]="respondido">{{questao.res_verdade}}</button>
+        <button class="btn btn-dark my-2" [ngStyle]="{'background-color': respondido ? 'red' : '#212529'}" (click)="resposta(2)" [disabled]="respondido">{{questao.res_meiaverdade}}</button>
+        <button class="btn btn-dark my-2" [ngStyle]="{'background-color': respondido ? 'red' : '#212529'}" (click)="resposta(3)" [disabled]="respondido">{{questao.res_mentira}}</button>
     </div>
 
     <div class="resposta" *ngIf="respondido">
         <h2>{{respostaQuestao}}</h2>
-        <p>Explicação: {{questao.explicacao}}</p>
-        <button (click)="next()" >Proximo!</button>
+        <div class="div">
+            <h2>Historia dessa desinformação: </h2>
+            <p>
+                {{questao.historia}}
+            </p>
+            <h2>A verdade: </h2>
+            <p>
+                {{questao.verdade}}
+            </p>
+            <h2>Impacto dessa Fake News:</h2>
+            <p>
+                {{questao.impacto}}
+            </p>
+        </div>
+        <button class="btn btn-dark" (click)="next()" >Proximo!</button>
     </div>
 </div>

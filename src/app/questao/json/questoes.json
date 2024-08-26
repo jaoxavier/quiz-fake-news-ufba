@@ -1,25 +1,76 @@
 {
     "questoes": [
         {
-            "questao": "Mamadeira de piroca?",
-            "res_verdade": "Não exsite",
-            "res_meiaverdade": "Tá no kit gay",
-            "res_mentira": "Existe demais",
-            "explicação": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis explicabo enim ipsam nostrum! Eos eum quae eius ipsa repellat deserunt fuga a, sunt sit tempora aliquid, necessitatibus cum nesciunt explicabo."
+            "questao": "A vacina pode causar efeitos colaterais como o autismo em crianças?",
+            "res_verdade": "A vacina não é perigosa para a população e não causa autismo. Estudos científicos demonstraram consistentemente que não há ligação entre vacinas e o autismo. As vacinas são seguras e protegem contra doenças graves.",
+            "res_meiaverdade": "As vacinas são em geral seguras, mas há algumas controvérsias sobre possíveis efeitos colaterais em casos raros. Embora a maioria dos estudos não mostra uma ligação clara entre vacinas e autismo, alguns pais ainda têm preocupações, e é importante que mais pesquisas sejam feitas",
+            "res_mentira": "A vacina é perigosa para a população e pode, sim, causar autismo. Há muitos relatos e estudos que mostram essa conexão, mas as autoridades de saúde escondem essa informação da população para evitar pânico.",
+            "historia": "Em 1998, Andrew Wakefield, um médico britânico publicou um estudo na revista científica The Lancet uma relação entre a vacina tríplice viral (MMR)  e o Transtorno do Espectro do Autismo (TEA). Seu estudo era baseado em uma amostra de apenas 12 crianças em que 11 delas haviam desenvolvido sinais de autismo após a vacinação. O próprio artigo reconhecia a associação entre a vacina e o autismo como uma hipótese, porém a ideia ganhou força quando o Wakefield sugeriu que a vacina em questão deveria ser evitada. Esse estudo foi altamente divulgado e se tornou a base de movimentos anti vacina pelo mundo.",
+            "verdade": "Essa teoria foi rapidamente derrubada pela comunidade científica, diversos estudos, incluindo uma análise de 2014 com mais de um milhão de crianças, não encontraram qualquer relação entre a vacina eo autismo. Além disso, uma investigação realizada pelo jornalista Brian Deer em 2004, revelou que o médico em questão manipulou dados, pois tinha sido financiado por advogados interessados em processar as fabricantes de vacinas.  Em 2010, Wakefield foi descredenciado pelo conselho geral de medicina e a revista The Lancet se retratou sobre o estudo.",
+            "impacto": "O medo gerado por esse estudo, gerou diversas consequências para o mundo e para a saúde pública, como a diminuição da cobertura vacinal e como o reaparecimento de doenças que tinham sido quase erradicadas."
         },
         {
-            "questao": "Vacina da autismo?",
-            "res_verdade": "Seguro",
-            "res_meiaverdade": "Muito raro de acontecer",
-            "res_mentira": "Dá autismo",
-            "explicação": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis explicabo enim ipsam nostrum! Eos eum quae eius ipsa repellat deserunt fuga a, sunt sit tempora aliquid, necessitatibus cum nesciunt explicabo."
+            "questao": "O kit gay e a mamadeira de piroca realmente existiram e circularam pelo brasil?",
+            "res_verdade": "O Ministério da Educação (MEC) desmentiu essas afirmações, esclarecendo que o \"kit gay\" fazia parte do projeto \"Escola sem homofobia\", que era voltado para educadores, e não para crianças.",
+            "res_meiaverdade": "Embora a ideia tenha sido veiculada como uma verdade, o MEC confirmou que não havia nenhum programa ou material voltado para crianças relacionado a isso.",
+            "res_mentira": "O \"kit gay\" e as mamadeiras eróticas foram aprovados e distribuídos pelo governo federal para todas as escolas públicas do Brasil em 2018, visando promover a educação sexual entre crianças desde os 6 anos.",
+            "historia": "Em 2018, a suposta distribuição de “mamadeiras eróticas” e a criação de um “kit gay” pelo PT e Fernando Haddad começaram a circular durante a campanha eleitoral de 2018. Um vídeo circula pelas redes sociais com mamadeiras com bicos em formato de pênis, onde um homem afirmava que o PT estava distribuindo creches públicas para combater a homofobia. Além disso, o assunto “kit gay” foi amplamente disseminado e ganhou força nas redes sociais em que supostamente o Fernando Haddad teria criado esse kit para crianças de 6 anos contendo um livro  “Aparelho Sexual e cia” e material erótico.",
+            "verdade": "O próprio MEC desmentiu essa fake news, o “kit gay”, na verdade fazia parte de um projeto chamado “Escola sem homofobia”, que estava dentro do programa “Brasil sem homofobia” lançado pelo governo federal em 2004. Esse kit era voltado aos educadores e não tinha destino às crianças.  Além disso, o livro “Aparelho Sexual e cia” não faz parte de nenhum programa educacional, confirmado pelo MEC e pela editora responsável.  O Tribunal Superior Eleitoral (TSE) intervir, ordenando a remoção desse vídeo que espalhava essas informações falsas que prejudicam o debate político.",
+            "impacto": "As mamadeiras eroticas e os kit gays são exemplos claros como a desinformação pode ser utilizada para manipular o opinião pública em momentos sensíveis como a campanha eleitoral. Criam desconfiança e hostilidade, prejudicando o processo democrático."
         },
         {
-            "questao": "Urna fraude?",
-            "res_verdade": "seguro por 26 instituições",
-            "res_meiaverdade": "pode ser hackeavel",
-            "res_mentira": "globolixo manipulado",
-            "explicação": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis explicabo enim ipsam nostrum! Eos eum quae eius ipsa repellat deserunt fuga a, sunt sit tempora aliquid, necessitatibus cum nesciunt explicabo."
+            "questao": "É verdade que as urnas eletrônicas podem ser facilmente fraudadas durante as eleições?",
+            "res_verdade": "Não, as urnas eletrônicas são projetadas com rigorosos mecanismos de segurança, e não há registros comprovados de fraudes nas eleições desde a sua adoção.",
+            "res_meiaverdade": "Algumas pessoas acreditam que é possível fraudar as urnas durante a sua fabricação, mas isso é altamente monitorado e auditado pelo TSE.",
+            "res_mentira": "Sim, as urnas eletrônicas são frequentemente hackeadas e os resultados das eleições são alterados sem que ninguém perceba.",
+            "historia": "Surgiram teorias da conspiração a respeito da urna eletrônica em 2014, com a derrota do candidato Aécio Neves, a integridade das urnas eletrônicas começou a ser questionada. Isso serve para desestabilizar a confiança dos eleitores no processo eleitoral do Brasil. As Urnas têm sido alvos de desinformação mesmo após anos de eficácia. Isso vem ocorrendo pelo desentendimento sobre o funcionamento e pela desinformação das redes sociais",
+            "verdade": "As urnas eletrônicas são projetadas com mecanismos de seguranças rigorosos. Desde sua comprovação em 1990, não há registro de fraudes. AS urnas eletrônicas não são conectadas a internet, o que elimina a possibilidade de invasões externas. Auditorias e testes públicos são realizados regularmente para que seja verificado sua integridade. O Tribunal Superior Eleitoral (TSE) assegura a monitoração de todo processo eleitoral, desde a fabricação até a totalização dos votos",
+            "impacto": "A propagação de desinformação sobre a segurança das urnas eletrônicas não só prejudica a credibilidade do processo eleitoral, mas enfraquece nossa democracia e enfraquece a confiança do público no sistema eleitoral."
+        },
+        {
+            "questao": "É verdade que a cloroquina é eficaz no tratamento da Covid-19?",
+            "res_verdade": "Não, estudos científicos mostraram que a cloroquina não é eficaz no tratamento da Covid-19 e pode causar efeitos colaterais graves",
+            "res_meiaverdade": "A cloroquina mostrou algum efeito contra o vírus em estudos laboratoriais, mas não há comprovação de que funcione em humanos.",
+            "res_mentira": "Sim, a cloroquina é um tratamento comprovado e seguro para a Covid-19",
+            "historia": "No início da pandemia, o remédio para tratamento de malária, a cloroquina foi apontada como uma possível solução para enfrentar o coronavírus. Isso levou as farmácias a acabarem com o estoque do remédio e sua prescrição foi amplamente realizada, apesar da falta de comprovação científica. Os presidentes do Brasil e dos Estados Unidos foram os que mais reforçaram essa desinformação, assim transformando a discussão em uma questão política. Por mais que a cloroquina tenha mostrado efeito com o vírus em laboratório, não teve efeito significativo em humanos",
+            "verdade": "Não há evidências científicas suficientes para comprovar a eficácia no tratamento da Covid-19. A Organização Mundial da Saúde (OMS) e outras instituições de saúde realizaram estudos rigorosos que concluíram que esses medicamentos não reduzem a mortalidade e nem o agravamento da doença. Além disso, apresentam um risco significativo para os pacientes que tomam doses altas.",
+            "impacto": "A desinformação da cloroquina não foi somente ineficaz, mas também perigosa para os pacientes. Além de comprometer a saúde de muitas pessoas, também desviou recursos e atenção de pesquisas em tratamentos realmente eficazes. Além de dar falsas esperanças para a população que passava por um momento crítico e sensível durante a pandemia"
+        },
+        {
+            "questao": "A \"cura gay\" é uma prática que pode ajudar pessoas a mudar sua orientação sexual?",
+            "res_verdade": "Não, a \"cura gay\" não ajuda a mudar a orientação sexual e pode causar danos psicológicos severos.",
+            "res_meiaverdade": "A \"cura gay\" pode ajudar algumas pessoas a suprimir seus desejos, mas não muda a orientação sexual.",
+            "res_mentira": "Sim, a \"cura gay\" é uma prática eficaz para mudar a orientação sexual de uma pessoa.",
+            "historia": "Apesar de ser descartada e condenada pela comunidade científica, a “cura gay” ainda é amplamente divulgada. Desde o seculo XIX, quando a homossexualidade foi erroneamente classificada como uma doença, começaram a surgir “curas”, baseadas em realigião majoritariamente. A Organização Mundial da Saúde em 1990 removeu a homossexualidade da lista de disturbios mentais. Porém, essas ideias persistem e se reinventam, atualmente através das redes sociais ou por influencers.",
+            "verdade": "A comunidade científica deixa muito claro que a homossexualidade não é doença, logo não requer tratamento. Instituições como o Conselho Federal de Psicologia afirmam que uma tentativa de “cura gay” é prejudicial e antiética, são ineficazes, como também podem causar sérios danos psicológicos, incluindo depressão, ansiedade e até o suícidio. Considera a tentativa de “corrigir” a orientação sexual de alguém como violência emocional",
+            "impacto": "A ideia da “cura gay” é uma desinformação que muitas pessoas ainda acreditam, porém só alimentam preconceitos e podem causar muitos danos psicológicos para os envolvidos. "
+        },
+        {
+            "questao": "A Lei Rouanet realmente favorece apenas grandes artistas e retira dinheiro de áreas como saúde e educação?",
+            "res_verdade": "Não, a Lei Rouanet não retira dinheiro de áreas como saúde e educação. Ela funciona através de renúncia fiscal e beneficia projetos culturais, incluindo muitos pequenos artistas e empresas.",
+            "res_meiaverdade": "A Lei Rouanet pode beneficiar grandes artistas, mas isso não significa que ela retire dinheiro de áreas essenciais como saúde e educação.",
+            "res_mentira": "Sim, a Lei Rouanet tira dinheiro da saúde e educação para financiar grandes artistas.",
+            "historia": "A lei Rouanet de 1991, foi criada para incentivar a cultura no Brasil, permitindo que empresas financiem projetos culturais em troca de incentivos fiscais. Porém sempre foi alvo de fake news, que deturpam seu propósito. Essas desinformações distorcem a percepção pública e cria uma imagem negativa da lei, que busca desenvolver a cultura brasileira.",
+            "verdade": "A lei permite que projetos culturais sejam financiados por meio de renúncia fiscal. Os projetos são avaliados de forma rigorosa e só são aprovados após passarem por várias análises. Indo de frente do que é divulgado nas redes sociais. A maioria dos recursos atingem pequenos projetos e micro empresas e não grandes artistas. Assim, gerando desenvolvimento cultural e empregos. ",
+            "impacto": "As fake news prejudicam o desenvolvimento cultural, afinal, cria desconfiança da população com a Lei, além disso, dificulta a captação de recursos para novos projetos culturais. Afinal, esses projetos culturais afetam uma cadeia inteira da economia ."
+        },
+        {
+            "questao": "É verdade que o Brasil está em risco de se tornar um país comunista sob o governo Lula?",
+            "res_verdade": "O Brasil mantém um sistema democrático e não há possibilidade de que um regime comunista esteja para se instaurar no país.",
+            "res_meiaverdade": "Existe a possibilidade, visto que existem propostas que buscam maior intervenção do Estado na economia, mas ainda não virou comunismo, pois as propostas estão dentro de um debate democrático. e plural.",
+            "res_mentira": "O governo Lula está transformando o Brasil em um país comunista igual à China, já que eles fazem muitos acordos comerciais.",
+            "historia": "No Brasil, a “ameaça comunista” repercutiu nas últimas décadas, especialmente nas campanhas eleitorais. Desde o primeiro governo do PT em 2003, o anticomunismo se intensificou como estratégia da direita. Utilizada para desacreditar propostas sociais e políticas. Esse discurso foi utilizado pelo ex-presidente Jair Bolsonaro, que associou o comunismo a crise econômica e social, criando terror acerca do “comunismo”. Assim, esse termo foi utilizado para descredibilizar ideologias.",
+            "verdade": "A crença da “ameaça comunista” não é de hoje, sendo apresentada no passado do Brasil e do mundo, mas ainda reflete nos dias atuais. Pesquisas indicam que 52% dos eleitores consideram que o país caminha para um regime comunista. Sendo um reflexo da desinformação e polarização política. ",
+            "impacto": "O medo do comunismo, gera narrativas falsas para polarizar o debate político, mas também impede a construção de um diálogo mais centrado e baseado em verdades."
+        },
+        {
+            "questao": "É verdade que vacinas podem conter microchips para controle da população?",
+            "res_verdade": "Não, vacinas não contêm microchips ou qualquer outro dispositivo para controle da população. Elas são compostas apenas pelos ingredientes necessários para gerar uma resposta imunológica.",
+            "res_meiaverdade": " Algumas vacinas podem conter conservantes que ajudam na preservação, mas isso não significa que tenham microchips ou grafeno. A maioria das vacinas é segura e testada rigorosamente.",
+            "res_mentira": "Sim, todas as vacinas têm chips líquidos que permitem o controle total das pessoas, e Bill Gates está por trás dessa tecnologia.",
+            "historia": "Por incrível que pareça, durante a pandemia de Covid-19, as notícias falsas de que vacinas conteriam chips ou seriam magnetizadas se espalharam, alimentada por medos e desconfiança da comunidade científica. Teorias que o controle populacional está associado à criação de tecnologias por Bill Gates.",
+            "verdade": "Por mais besteira que pareça ser, foram feitos estudos e análises por profissionais da saúde para refutar categoricamente as alegações que as vacinas contêm chip ou que geram campos magnéticos no  corpo. As vacinas são compostas do material necessário para gerar resposta imunológica e são testadas rigorosamente O Ministério da Saúde e a Agência Nacional de Vigilância Sanitária (Anvisa) afirmam que não existem substâncias como grafeno ou microchips nas vacinas.",
+            "impacto": "O medo causado por essa fake news, pode diminuir a cobertura vacinal, e por sua vez, resultar em surtos de doenças que poderiam ser prevenidas. "
         }
     ]
 }
